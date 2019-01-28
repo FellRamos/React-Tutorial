@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Todos from './components/Todos';
+import "./App.css";
 
 class App extends Component {
   state = {
@@ -12,7 +13,7 @@ class App extends Component {
       {
         id: 2,
         title: "todo2",
-        completed: false
+        completed: true
       },
       {
         id: 3,
